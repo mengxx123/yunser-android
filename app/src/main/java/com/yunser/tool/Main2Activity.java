@@ -67,11 +67,13 @@ public class Main2Activity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 // 分享文本
-                Intent textIntent = new Intent(Intent.ACTION_SEND);
-                textIntent.setType("text/plain");
-                textIntent.putExtra(Intent.EXTRA_TEXT, "这是一段分享的文字");
-                startActivity(Intent.createChooser(textIntent, "分享"));
+//                Intent textIntent = new Intent(Intent.ACTION_SEND);
+//                textIntent.setType("text/plain");
+//                textIntent.putExtra(Intent.EXTRA_TEXT, "这是一段分享的文字");
+//                startActivity(Intent.createChooser(textIntent, "分享"));
+
 //                startActivity(new Intent(Main2Activity.this, NoteAddActivity.class));
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
